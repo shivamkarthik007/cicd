@@ -1,0 +1,29 @@
+{
+	"name": "DestinationDataset_nhd",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LogDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Id",
+				"type": "bigint",
+				"precision": 19,
+				"scale": 0
+			},
+			{
+				"name": "Log",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Logs"
+		}
+	}
+}
