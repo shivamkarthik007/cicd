@@ -1,0 +1,9 @@
+{
+	"name": "dfinstnew",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "880d0d5f-eb2b-4dbf-981a-1323a148cb66",
+		"tenantId": "e0793d39-0939-496d-b129-198edd916feb"
+	}
+}
